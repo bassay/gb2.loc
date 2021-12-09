@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1140px;
+}
+
+.header {
+    background-color: #222222;
+}
+
+.hero{
+    background-color: #F1E4E6;
+}
+
+
+
+
+.feature {
+    background-color: #222224;
+}
+
+.subscribe{
+
+    height: 448px;
+    background: url(../img/bg-subscribe.jpg) no-repeat center;
+} 
+
