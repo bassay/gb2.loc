@@ -377,3 +377,26 @@ a{
     justify-content: space-between;
 }
 
+
+
+
+.shared-links {
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.shared-link {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    color: #000;
+    background: #FFF;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.shared-link:hover {
+    color: #fff;
+    background: #F16D7F;
+}
