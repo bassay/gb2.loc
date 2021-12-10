@@ -1,0 +1,6 @@
+@mixin hover_for_svg {
+    fill: #E8E8E8;
+    &:hover {
+        fill: $c_main;
+    }
+}

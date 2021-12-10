@@ -1,0 +1,88 @@
+/* промо */
+.promo {
+    background-color: #F1E4E6;
+}
+
+.promo-wrap {
+    min-height: 764px;
+    background-image: url(../img/promo-img.png);
+    background-repeat: no-repeat;
+    background-position-x: -226px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.promo-title {
+    margin-right: 90px;
+    color: #222222;
+    padding: 13px 16px;
+    border-left: 12px solid #F16D7F;
+    box-sizing: border-box;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 38px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.promo-title__small, .promo-title__pink {
+    font-size: 32px;
+    font-weight: 900;
+
+}
+.promo-title__pink {
+    color: #F16D7F;
+}
+/* /промо */
+
+
+.categories {
+    padding: 30px 0 50px 0;
+}
+
+.categories-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categories-item {
+    width: 360px;
+    height: 260px;
+    background-color: #211616;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.categories-item-top {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.categories-item-bottom {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+.category-woman {
+    background: url(../img/cat-item-woman.jpg) no-repeat center ;
+
+}
+.category-man {
+    background: url(../img/cat-item-man.jpg) no-repeat center ;
+
+}
+.category-kids {
+    background: url(../img/cat-item-kid.jpg) no-repeat center ;
+
+}
+.category-acc {
+    background: url(../img/cat-item-ACCESORIES.jpg) no-repeat center ;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+}

@@ -1,0 +1,24 @@
+.breadcrumbs-items {
+    display: flex;
+}
+
+.breadcrumbs-item {
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363
+    // text-transform: uppercase;
+}
+
+.breadcrumbs-item::after {
+    content: "/";
+    margin: 0 10px;
+}
+
+.breadcrumbs-item__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: $c_main;
+}

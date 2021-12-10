@@ -1,0 +1,60 @@
+/* шапка */
+.header {
+    background-color: #222;
+    min-height: 75px;
+    color: #fff;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 0 0;
+}
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-left__search {
+    fill: #E8E8E8;
+    &:hover{
+        fill: $c_main;
+    }
+}
+
+.header-left__logo {
+    margin-right: 41px;
+}
+.header-right__login {
+    margin: 0 33px;
+}
+
+// test mixin
+.header-right__menu-item {
+    @include hover_for_svg;
+}
+.header-right__login-item {
+    @include hover_for_svg;
+}
+.header-right__cart-item {
+    @include hover_for_svg;
+}
+
+
+.header-right__cart {
+    span.qty_cart {
+            display: none;
+            position: absolute;
+        &:hover {
+            // стили для счетчика 
+            // не получается сделать маленький круг на css 
+            // я бы сделал вложеным елементов в HTML
+            display: none;
+        }
+
+
+    }
+}
+
+

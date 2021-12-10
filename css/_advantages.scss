@@ -1,0 +1,46 @@
+.advantages {
+    background: #222224;
+    
+}
+.advan-wrap {
+    padding: 100px 0;
+
+}
+
+.advan-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.advan-item {
+    min-width: 360px;
+    display: block;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.advan-item:nth-child(1){
+    background-image: url(../img/advan-delivery.svg);
+} 
+.advan-item:nth-child(2){
+    background-image: url(../img/advan-sale.svg);
+    
+}
+.advan-item:nth-child(3){
+    background-image: url(../img/advan-crown.svg);
+    
+}
+.advan-item-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    
+} 
+.advan-item-desc{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+}

@@ -1,0 +1,31 @@
+.footer{
+    background: #222224;
+    color: #FBFBFB;
+    padding: 30px 0;
+}
+.footer-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shared-links {
+    display: flex;
+    box-sizing: border-box;
+}
+.shared-link {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    color: #000;
+    background: #FFF;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.shared-link:hover {
+    color: #fff;
+    background: #F16D7F;
+}

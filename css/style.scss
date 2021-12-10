@@ -1,0 +1,94 @@
+@import "_vars.scss";
+@import "_mixin.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+li, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.dblock {
+    display: block;
+}
+@import "_helpers.scss";
+
+.visually-hidden {
+    position: absolute;
+    left: -999999px;
+    width: 0px;
+    height: 0;
+    visibility: hidden;
+}
+
+/* start &  code */
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+// not my code
+.container {
+    padding: 0 calc(50% - 1140px / 2);
+}
+
+@import "_header.scss";
+@import "_page-header.scss";
+@import "_breadcrumbs.scss";
+@import "_main-page.scss";
+@import "_catalog-page.scss";
+@import "_product.scss";
+@import "_product-filters.scss";
+
+// блок с карточками товааров, нужно подумать
+.popular {
+    margin: 0 0 95px 0;
+}
+
+.popular-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+}
+.popular-slogan{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all_prod_button {
+    padding: 14px 38px;
+    display: block;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    &:hover{
+        color: #fff;
+        background: $c_main;
+        
+    }
+
+}
+
+@import "_advantages.scss";
+
+@import "_feedback.scss";
+
+@import "_footer.scss";

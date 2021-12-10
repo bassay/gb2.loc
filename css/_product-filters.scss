@@ -1,0 +1,22 @@
+.page-content__fiters {
+    display: flex;
+    justify-content: space-between;
+    justify-items:center; 
+
+}
+.page-content__fiter {
+    width: 360px;
+    margin: 51px 0 64px 0;
+}
+
+.filter-btn {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.filter-btn-ico {
+    margin-left: 11px;
+}
