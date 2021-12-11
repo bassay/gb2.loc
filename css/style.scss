@@ -47,6 +47,7 @@ a{
 @import "_catalog-page.scss";
 @import "_product.scss";
 @import "_product-filters.scss";
+@import "_pagination.scss";
 
 // блок с карточками товааров, нужно подумать
 .popular {
@@ -66,7 +67,7 @@ a{
     margin-bottom: 47px;
 }
 
-.pagination {
+.main-pagination {
     display: flex;
     align-items: center;
     justify-content: center;

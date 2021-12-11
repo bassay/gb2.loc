@@ -16,7 +16,36 @@
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
+    background: url(../img/catalog-fiter.svg) no-repeat right;
+    padding-right: 20px;
+    &:hover {
+        color: $c_main;
+    }
 }
-.filter-btn-ico {
-    margin-left: 11px;
+// .filter-btn-ico {
+//     width: 15px;
+//     height: 10px;
+//     margin-left: 8px;
+//     &:hover{
+//         fill: $c_main;
+//     }
+// }
+
+.sorter-filters {
+    display: flex;
+    gap: 30px;
+}
+
+.sorter-filter {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    &:hover {
+        color: $c_main;
+    }
+    &:after{
+        content: "\f078";
+        font-family: FontAwesome;
+        margin-left: 10px; 
+    }
 }

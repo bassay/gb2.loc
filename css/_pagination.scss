@@ -1,0 +1,44 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 95px;
+
+}
+
+.pagination-list {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    padding: 15px 16px;
+}
+.pagination-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    &:hover {
+        color: $c_main;
+    }
+
+    // &:nth-last-child(-n+2)::before{
+    //     margin-left: -19px;
+    //     content: ".....";
+    // https://webref.ru/layout/structural-pseudo-classes/nth-last-child
+    // }
+
+}
+.pagination-link__points::before{
+    margin-left: -19px;
+    content: ".....";
+}
+
+.pagination-item .active {
+    color: $c_main;
+}
+
+.pagination-link .fas {
+    color: #000;
+}
