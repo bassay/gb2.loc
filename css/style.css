@@ -456,14 +456,35 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 1;
 }
 
 .slider-btn {
   display: inline-block;
-  background: #2A2A2A;
+  background: rgba(42, 42, 42, 0.15);
+  opacity: 0.15;
   width: 47px;
   height: 47px;
-  color: #fff;
+  color: #000;
+  border: none;
+}
+
+.slider-btn-left::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f053";
+}
+
+.slider-btn-right::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f054";
+}
+
+.slider-img {
+  width: 100%;
+  max-width: 597px;
+  padding-bottom: 64px;
 }
 
 .about-wrap {
@@ -477,6 +498,77 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: -64px;
+  z-index: 99;
+  padding: 64px;
+  background: #fff;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 128px;
+}
+
+.about-wrap .page-content__fiter {
+  margin: 0px 0 0px 0;
+}
+
+.cat-name {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  position: relative;
+}
+
+.prod-name {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin: 0 0 48px;
+}
+
+.prod-desc {
+  max-width: 555px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5E5E5E;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.prod-price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+
+.prod-line1 {
+  width: 63px;
+  border-bottom: 3px solid #F16D7F;
+  margin: 12px 0;
+}
+
+.prod-line2 {
+  width: 642px;
+  border-bottom: 1px solid #F16D7F;
+  margin: 64px 0;
+}
+
+.red_button {
+  border: 1px solid #F16D7F;
+  background: none;
+  padding: 14px 57px;
+  color: #F16D7F;
+}
+
+.red_button:hover {
+  color: #fff;
+  background: #F16D7F;
+}
+
+.add_to_cart {
+  margin-top: 48px;
 }
 
 .popular {
