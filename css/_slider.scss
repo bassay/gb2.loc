@@ -1,0 +1,20 @@
+.slider {
+    background: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.slider-btn {
+    display: inline-block;
+    background: #2A2A2A;
+    //opacity: 0.15;
+    width: 47px;
+    height: 47px;
+    color: #fff;    
+}
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
