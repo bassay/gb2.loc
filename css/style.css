@@ -618,18 +618,22 @@ a {
   height: 47px;
   color: #000;
   border: none;
+  fill: #000;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
-.slider-btn-left::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f053";
+.slider-btn:hover {
+  opacity: 1;
+  fill: #F16D7F;
 }
 
-.slider-btn-right::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f054";
+.slider-btn-arrow {
+  fill: inherit;
+}
+
+.slider-btn-arrow:hover {
+  fill: inherit;
 }
 
 .slider-img {

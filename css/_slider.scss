@@ -13,19 +13,35 @@
     height: 47px;
     color: #000;
     border: none;
+    fill: #000;
+
+    transition: 0.3s ease;
+    &:hover{
+        opacity: 1;
+        fill: #F16D7F;
+    };
+
 }
 
-.slider-btn-left::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f053";
+// .slider-btn-left::before{
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     content: "\f053";
 
-}
-.slider-btn-right::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f054";
+// }
+// .slider-btn-right::before {
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     content: "\f054";
 
+// }
+.slider-btn-arrow {
+    // opacity: 1;
+    // не могу решить этот вопрос
+    fill: inherit;
+    &:hover {
+        fill: inherit;
+    }
 }
 
 .slider-img {
