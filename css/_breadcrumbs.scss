@@ -7,8 +7,11 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #636363
+    color: #636363;
     // text-transform: uppercase;
+    &:hover{
+        color: $c_main;
+    }
 }
 
 .breadcrumbs-item::after {

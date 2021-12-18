@@ -16,6 +16,8 @@ li, ol {
 
 a {
   text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .dblock {
@@ -177,6 +179,10 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #636363;
+}
+
+.breadcrumbs-item:hover {
+  color: #F16D7F;
 }
 
 .breadcrumbs-item::after {
