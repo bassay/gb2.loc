@@ -32,13 +32,13 @@
 
 // test mixin
 .header-right__menu-item {
-    @include hover_for_svg;
+    @include mixin_hover_for_svg;
 }
 .header-right__login-item {
-    @include hover_for_svg;
+    @include mixin_hover_for_svg;
 }
 .header-right__cart-item {
-    @include hover_for_svg;
+    @include mixin_hover_for_svg;
 }
 
 
