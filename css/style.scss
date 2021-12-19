@@ -15,6 +15,7 @@ li, ol {
 }
 a{
     text-decoration: none;
+    transition: 0.3s ease;
 }
 .dblock {
     display: block;
@@ -46,6 +47,7 @@ a{
 @import "_main-page.scss";
 @import "_catalog-page.scss";
 @import "_product.scss";
+@import "_product-page.scss";
 @import "_product-filters.scss";
 @import "_pagination.scss";
 @import "_slider.scss";
@@ -81,7 +83,10 @@ a{
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
-    &:hover{
+    // dz lesson5
+    transition: 0.3s;
+    transition-property: color, background;
+    &:hover {
         color: #fff;
         background: $c_main;
         

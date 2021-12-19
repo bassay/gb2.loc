@@ -1,6 +1,8 @@
-@mixin hover_for_svg {
+@mixin mixin_hover_for_svg {
     fill: #E8E8E8;
+    transition: 0.3s;
     &:hover {
         fill: $c_main;
+        
     }
 }
