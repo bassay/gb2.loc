@@ -30,13 +30,87 @@
     margin: 0 33px;
 }
 
-// test mixin
+.header-right__menu {
+    position: relative;
+    z-index: 2;
+}
+.menu-burger {
+    top: 75px;
+    right: 1px;
+    background: #fff;
+    position: absolute;
+    padding: 38px 32px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    transform: scale(1);
+    // transform: scale(0);
+    // как я понял проблема то что я криво вывел свг 
+    z-index: 999;
+}
+.header-right__menu:hover .menu-burger {
+    transform: scale(1);
+}
+.btn-close {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    border: none;
+    background-color: inherit;
+    .fa-times {
+        color: #6F6E6E;
+        transition: 0.3s color ease;
+        &:hover{
+            color: $c_main;
+        }
+    }
+}
+
+.menu-burger-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+} 
+.menu-item{
+    font-size: 14px;
+    line-height: 17px;
+    color: $c_main;
+    display: block;
+    margin-bottom: 12px;
+    transition: 0.3s color ease;
+
+    &:hover{
+        color: #6F6E6E;
+    }
+}
+.sub-menu-items{
+    margin-left: 21px;
+}
+.sub-menu-item {
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 11px;
+    transition: 0.3s color ease;
+
+    &:hover{
+        color: $c_main;
+    }
+}
+
+
+
 .header-right__menu-item {
+    z-index: 1;
     @include mixin_hover_for_svg;
 }
+
 .header-right__login-item {
     @include mixin_hover_for_svg;
 }
+
 .header-right__cart-item {
     @include mixin_hover_for_svg;
 }
@@ -47,14 +121,13 @@
             display: none;
             position: absolute;
         &:hover {
-            // стили для счетчика 
-            // не получается сделать маленький круг на css 
-            // я бы сделал вложеным елементов в HTML
+
             display: none;
         }
 
 
     }
 }
+
 
 
