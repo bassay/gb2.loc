@@ -24,10 +24,48 @@
             </a>
         </div>
         <div class="header-right">
-            <a href="" class="header-right__menu dblock">
-                <svg class="header-right__menu-item" width="32" height="23" viewBox="0 0 32 23" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z"/>
+            <a href="#" class="header-right__menu dblock">
+                <svg class="header-right__menu-item" width="32" height="23" viewBox="0 0 32 23" xmlns="http://www.w3.org/2000/svg"><path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z"/></svg>
                 <!-- fill="#E8E8E8" -->
+                <nav class="menu-burger">
+                    <button class="btn-close"><i class="fas fa-times"></i></button>
+                    <h3 class="menu-burger-title">MENU</h3>
+                    <ul>
+                        <li>
+                            <a class="menu-item" href="#">MAN
+                                <ul class="sub-menu-items">
+                                    <li><a class="sub-menu-item" href="#">Accessories</a></li>
+                                    <li><a class="sub-menu-item" href="#">Bags</a></li>
+                                    <li><a class="sub-menu-item" href="#">Denim</a></li>
+                                    <li><a class="sub-menu-item" href="#">T-Shirts</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#">WOMAN
+                                <ul class="sub-menu-items">
+                                    <li><a class="sub-menu-item" href="#">Accessories</a></li>
+                                    <li><a class="sub-menu-item" href="#">Jackets & Coats</a></li>
+                                    <li><a class="sub-menu-item" href="#">Polos</a></li>
+                                    <li><a class="sub-menu-item" href="#">T-Shirts</a></li>
+                                    <li><a class="sub-menu-item" href="#">Shirts</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#">KIDS
+                                <ul class="sub-menu-items">
+                                    <li><a class="sub-menu-item" href="#">Accessories</a></li>
+                                    <li><a class="sub-menu-item" href="#">Jackets & Coats</a></li>
+                                    <li><a class="sub-menu-item" href="#">Polos</a></li>
+                                    <li><a class="sub-menu-item" href="#">T-Shirts</a></li>
+                                    <li><a class="sub-menu-item" href="#">Shirts</a></li>
+                                    <li><a class="sub-menu-item" href="#">Bags</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </nav> <!-- menu-burger END-->
             </a>
 
             <a href="" class="header-right__login dblock">
@@ -64,7 +102,10 @@
 
     <section class="page-content">
         <div class="slider">
-            <button class="slider-btn slider-btn-left"></button>
+            <button class="slider-btn slider-btn-left">
+                <svg class="slider-btn-arrow" width="31" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.6998 7.7499L13.9498 15.4999L21.6998 23.2499L20.1498 26.3499L9.2998 15.4999L20.1498 4.6499L21.6998 7.7499Z"/>
+            </button>
             <!-- <i class="fas fa-chevron-left"></i> -->
             <!-- не смог сделать -->
             
@@ -72,7 +113,10 @@
                 <img class="slider-img" src="/img/product-image.jpg" alt="slide">
             </div>
             
-            <button class="slider-btn slider-btn-right"></button>
+            <button class="slider-btn slider-btn-right">
+                <svg class="slider-btn-arrow" width="13" height="23" viewBox="0 0 13 23" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498 22.3499L0.299805 19.2499Z" />
+            </button>
             <!-- <i class="fas fa-chevron-right"></i> -->
         </div>
         
@@ -108,6 +152,9 @@
                 <div class="about-up-sell">
                     <ul class="products wrap dblock">
                             <li class="product">
+                                <div class="product-overlay">
+                                    <button class="product-overlay-add-botton"><img src="/img/ico-cart.svg" alt="">Add to Cart</button>
+                                </div>
                                 <img src="/img/prod-img/prod1.jpg" alt="prod_img" class="product-img">
                                 <div class="product-text-block">
                                     <a href="" class="product-title">ELLERY X M'O CAPSULE</a>
@@ -116,6 +163,9 @@
                                 </div>
                             </li>
                             <li class="product">
+                                <div class="product-overlay">
+                                    <button class="product-overlay-add-botton"><img src="/img/ico-cart.svg" alt="">Add to Cart</button>
+                                </div>
                                 <img src="/img/prod-img/prod2.jpg" alt="prod_img" class="product-img">
                                 <div class="product-text-block">
                                     <a href="" class="product-title">ELLERY X M'O CAPSULE</a>
@@ -124,6 +174,9 @@
                                 </div>
                             </li>
                             <li class="product">
+                                <div class="product-overlay">
+                                    <button class="product-overlay-add-botton"><img src="/img/ico-cart.svg" alt="">Add to Cart</button>
+                                </div>
                                 <img src="/img/prod-img/prod3.jpg" alt="prod_img" class="product-img">
                                 <div class="product-text-block">
                                     <a href="" class="product-title">ELLERY X M'O CAPSULE</a>

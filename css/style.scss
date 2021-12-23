@@ -15,9 +15,16 @@ li, ol {
 }
 a{
     text-decoration: none;
+    transition: 0.3s ease;
+}
+button{
+    font-family: inherit;
 }
 .dblock {
     display: block;
+}
+.i_block {
+    display: inline-block;
 }
 @import "_helpers.scss";
 
@@ -46,9 +53,12 @@ a{
 @import "_main-page.scss";
 @import "_catalog-page.scss";
 @import "_product.scss";
+@import "_product-page.scss";
 @import "_product-filters.scss";
 @import "_pagination.scss";
 @import "_slider.scss";
+@import "_cart-page.scss";
+
 
 // блок с карточками товааров, нужно подумать
 .popular {
@@ -81,7 +91,10 @@ a{
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
-    &:hover{
+    // dz lesson5
+    transition: 0.3s;
+    transition-property: color, background;
+    &:hover {
         color: #fff;
         background: $c_main;
         

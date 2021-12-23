@@ -23,9 +23,11 @@
     margin-right: 10px;
     align-items: center;
     justify-content: center;
-}
 
-.shared-link:hover {
-    color: #fff;
-    background: #F16D7F;
+    transition: 0.3s;
+    &:hover {
+        
+        color: #fff;
+        background: #F16D7F;
+    }    
 }
