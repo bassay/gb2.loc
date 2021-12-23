@@ -42,8 +42,8 @@
     padding: 38px 32px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    transform: scale(1);
-    // transform: scale(0);
+    //transform: scale(1);
+    transform: scale(0);
     // как я понял проблема то что я криво вывел свг 
     z-index: 999;
 }
